@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "vercel-build": "composer install && php artisan config:clear"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.7",
